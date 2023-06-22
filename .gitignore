@@ -1,0 +1,9 @@
+artifacts
+cache
+coverage
+deployments
+node_modules
+coverage.json
+.env
+.eslintrc.json
+gas-report.txt

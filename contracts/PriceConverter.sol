@@ -26,10 +26,7 @@ library PriceConverter {
      * @param priceFeed The Chainlink price feed contract
      * @return The equivalent amount in ETH with 18 decimals
      */
-    function getUsdToEth(
-        uint256 usdAmount,
-        AggregatorV3Interface priceFeed
-    ) internal view returns (uint256) {
+    function getUsdToEth(uint256 usdAmount, AggregatorV3Interface priceFeed) internal view returns (uint256) {
         uint256 ethPrice = getPrice(priceFeed);
         uint256 usdAmountInEth = (usdAmount * 10 ** 36) / ethPrice;
         return usdAmountInEth;

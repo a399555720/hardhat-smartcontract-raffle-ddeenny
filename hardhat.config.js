@@ -57,7 +57,7 @@ module.exports = {
         currency: "USD",
         outputFile: "gas-report.txt",
         noColors: true,
-        coinmarketcap: process.env.COINMARKETCAP_API_KEY,
+        // coinmarketcap: process.env.COINMARKETCAP_API_KEY,
     },
     mocha: {
         timeout: 5400000, // 1.5 hours max for running tests

@@ -5,7 +5,7 @@ This is a decentralized raffle application built on the Ethereum blockchain usin
 
 ## Description
 
-The Hardhat Smart Contract Raffle ddeenny is a decentralized application (DApp) that allows participants to enter a raffle by purchasing tickets using Ethereum. The raffle follows the following rules:
+The Hardhat Smart Contract Raffle is a decentralized application (DApp) that allows participants to enter a raffle by purchasing tickets using Ethereum. The raffle follows the following rules:
 
 - One entrance fee for the raffle is 100 USD worth of ETH.
 - Participants can only enter the raffle when the status is open.
